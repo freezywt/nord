@@ -1,0 +1,21 @@
+{
+    "name": "nord",
+    "displayName": "Nord",
+    "description": "simple theme based on nord color pallet.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Nord",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Nord-color-theme.json"
+            }
+        ]
+    }
+}
